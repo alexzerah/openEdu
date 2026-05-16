@@ -1,5 +1,37 @@
-```table-of-contents
-```
+## C3 - Types
+
+- [C3 - Types](#c3---types)
+- [1. Définition](#1-définition)
+- [2. Char](#2-char)
+	- [2.1 Table ASCII](#21-table-ascii)
+- [3. Int](#3-int)
+- [4. `short`, `long`, `long long`](#4-short-long-long-long)
+- [5. float et double](#5-float-et-double)
+- [6. Void](#6-void)
+- [7. Les modificateurs de type](#7-les-modificateurs-de-type)
+	- [7.1 signed et unsigned](#71-signed-et-unsigned)
+	- [Combinaison classique](#combinaison-classique)
+- [8. Les tailles](#8-les-tailles)
+- [9. Les conversions de type](#9-les-conversions-de-type)
+	- [Conversion implicite](#conversion-implicite)
+	- [Cast explicite](#cast-explicite)
+	- [Promotions automatiques](#promotions-automatiques)
+- [10. Différence entre type et représentation mémoire](#10-différence-entre-type-et-représentation-mémoire)
+- [11. Les bons specificateurs printf](#11-les-bons-specificateurs-printf)
+- [12. Pièges](#12-pièges)
+	- [Division entière](#division-entière)
+	- [Débordement](#débordement)
+	- [Mélange signed / unsigned](#mélange-signed--unsigned)
+- [13. Les types dérivés](#13-les-types-dérivés)
+	- [13.1 Pointeurs](#131-pointeurs)
+	- [13.2 Tableaux](#132-tableaux)
+	- [13.3 Structures](#133-structures)
+	- [13.4 typedef](#134-typedef)
+- [Types utiles à maitriser](#types-utiles-à-maitriser)
+- [14.  Exercice](#14--exercice)
+	- [14.1 Exercice 1](#141-exercice-1)
+	- [14.2](#142)
+
 
 ## 1. Définition
 
@@ -149,7 +181,7 @@ unsigned long n = 100;
 
 ## 8. Les tailles
 
-C garantit des relations entre types, pas forcément une taille fixe.
+C garantit des relations entre types.
 
 - `char`  = 1 octet
 - `short` = 2 octets
