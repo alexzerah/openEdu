@@ -8,6 +8,12 @@ void	ft_putchar(char c)
 
 int	main(void)
 {
+	write(1, "hello world\n", 12);
+	return (0);
+}
+
+int	main2(void)
+{
 	char *c;
 	int	i;
 
